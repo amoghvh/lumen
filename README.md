@@ -3,6 +3,8 @@
 [![Rust](https://img.shields.io/badge/rust-1.95%2B-orange)](https://www.rust-lang.org/)
 [![Tokio](https://img.shields.io/badge/tokio-1.52-red)](https://tokio.rs/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Test Status](https://img.shields.io/badge/tests-5%20passing-brightgreen)]()
+[![Unsafe Code](https://img.shields.io/badge/unsafe-0%20blocks-brightgreen)]()
 
 **High-performance, memory-safe log processor that detects security threats in real-time.**
 
