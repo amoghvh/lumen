@@ -140,7 +140,7 @@ Anyhow	Ergonomic error handling
 
    Persistent storage integration
 
-📝 License
+📝 License - 
 
 MIT License - feel free to use this for your own projects
 🤝 Contributing
@@ -152,6 +152,7 @@ PRs welcome! Especially for:
    Performance optimizations
 
    Integration examples
+
 ## Why I Built This
 
 I built Lumen to demonstrate production Rust: async networking, backpressure, graceful shutdown, and zero unsafe code. This isn't a tutorial project—it's a complete system that could be deployed today.
