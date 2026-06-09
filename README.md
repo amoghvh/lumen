@@ -46,7 +46,7 @@ echo "<script>alert('xss')</script>" | nc localhost 9999
 # Credit card number (will be QUARANTINED)
 echo "cc_number=4111111111111111" | nc localhost 9999
 
-Expected Output
+Expected Output =>
 text
 
 🛡️ Lumen Security Telemetry Engine v0.2.0
