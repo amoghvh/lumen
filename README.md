@@ -28,7 +28,6 @@ cargo run
 
 # Run in production mode (optimized)
 cargo run --release
-
 📡 Testing the Engine
 
 Open another terminal and send test logs:
