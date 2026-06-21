@@ -1,4 +1,4 @@
-# 🛡️ Lumen - Security Telemetry Engine
+#  Lumen - Security Telemetry Engine
 
 [![Rust](https://img.shields.io/badge/rust-1.95%2B-orange)](https://www.rust-lang.org/)
 [![Tokio](https://img.shields.io/badge/tokio-1.52-red)](https://tokio.rs/)
@@ -8,17 +8,17 @@
 
 **High-performance, memory-safe log processor that detects security threats in real-time.**
 
-## ✨ Features
+##  Features
 
-- ⚡ **10,000+ concurrent connections** via Tokio async runtime
-- 🔍 **Real-time threat detection** (SQL injection, XSS, PII)
-- 🛡️ **Memory safety** with zero unsafe code
-- 📊 **Backpressure** via bounded MPSC channels
-- 🧪 **Comprehensive tests** (5+ unit tests)
-- 🐳 **Docker ready**
-- 📝 **Structured logging** with tracing
+-  **10,000+ concurrent connections** via Tokio async runtime
+-  **Real-time threat detection** (SQL injection, XSS, PII)
+-  **Memory safety** with zero unsafe code
+-  **Backpressure** via bounded MPSC channels
+-  **Comprehensive tests** (5+ unit tests)
+-  **Docker ready**
+-  **Structured logging** with tracing
 
-## 🚀 Quick Start
+##  Quick Start
 # Clone the repository
 git clone https://github.com/amoghvh/lumen
 cd lumen
@@ -48,21 +48,21 @@ echo "cc_number=4111111111111111" | nc localhost 9999
 Expected Output =>
 text
 
-🛡️ Lumen Security Telemetry Engine v0.2.0
+ Lumen Security Telemetry Engine v0.2.0
 Listening on port 9999 for logs...
 [CLEAN #1] User login successful
 [QUARANTINED #1] SELECT * FROM users
 [QUARANTINED #2] <script>alert('xss')</script>
 [QUARANTINED #3] cc_number=4111111111111111
 
-🏗️ Architecture
+ Architecture
 text
 
 TCP Client → Tokio Listener → MPSC Channel → SecurityEngine → Output
      ↓              ↓              ↓              ↓
   Non-blocking  Backpressure   Thread-safe    Threat Detection
 
-🧪 Running Tests
+ Running Tests
 bash
 
 cargo test
@@ -89,7 +89,7 @@ Log processing latency	<100μs
 Concurrent connections	10,000+
 Memory usage	~50MB idle
 Throughput	50k logs/sec (single core)
-🐳 Docker Deployment
+ Docker Deployment
 bash
 
 # Build the image
@@ -98,7 +98,7 @@ docker build -t lumen:latest .
 # Run the container
 docker run -p 9999:9999 lumen:latest
 
-🛡️ Security Rules
+ Security Rules
 
 The engine currently detects:
 Threat Type	Patterns
@@ -111,7 +111,7 @@ Rust	Memory safety & zero-cost abstractions
 Tokio	Async runtime for high concurrency
 Tracing	Structured logging framework
 Anyhow	Ergonomic error handling
-📈 Production Features
+ Production Features
 
     ✅ Backpressure-aware buffering (bounded MPSC channels)
 
@@ -139,10 +139,10 @@ Anyhow	Ergonomic error handling
 
    Persistent storage integration
 
-📝 License - 
+ License - 
 
 MIT License - feel free to use this for your own projects
-🤝 Contributing
+ Contributing
 
 PRs welcome! Especially for:
 
