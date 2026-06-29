@@ -6,6 +6,7 @@
 [![Test Status](https://img.shields.io/badge/tests-5%20passing-brightgreen)]()
 [![Unsafe Code](https://img.shields.io/badge/unsafe-0%20blocks-brightgreen)]()
 
+
 **High-performance, memory-safe log processor that detects security threats in real-time.**
 
 ##  Features
